@@ -6,7 +6,6 @@ This is a temporary script file.
 """
 
 import dash_leaflet as dl
-import dash_leaflet.express as dlx
 from dash import Dash, html
 import geojson
 
