@@ -12,7 +12,7 @@ import geojson
 
 import os
 
-os.chdir('/Users/charlottelloyd/Documents/Projects/git/nc_charitable_orgs')
+os.chdir('/your/dir/here')
 
 with open('BMF_NC2.json') as f:
     gj = geojson.load(f)
