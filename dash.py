@@ -9,10 +9,6 @@ import dash_leaflet as dl
 from dash import Dash, html
 import geojson
 
-import os
-
-os.chdir('/your/dir/here')
-
 with open('BMF_NC2.json') as f:
     gj = geojson.load(f)
 
