@@ -1,3 +1,4 @@
 dash
+dash_leaflet
 geojson
 gunicorn
