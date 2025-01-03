@@ -12,6 +12,8 @@ with open('BMF_NC2.json') as f:
     gj = geojson.load(f)
 
 app = Dash()
+server = app.server
+
 app.layout = html.Div([
     dl.Map([dl.TileLayer(),
             dl.GeoJSON(data = gj, cluster=True, zoomToBoundsOnClick=True,
