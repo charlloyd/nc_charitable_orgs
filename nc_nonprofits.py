@@ -18,7 +18,7 @@ app.layout = html.Div([
     dl.Map([dl.TileLayer(),
             dl.GeoJSON(data = gj, cluster=True, zoomToBoundsOnClick=True,
                        superClusterOptions={"radius": 100})], 
-                       center=(35, -79), zoom=7, style={'height': '50vh'})])
+                       center=(35, -79), zoom=7, style={'height': '150vh'})])
 
 if __name__ == '__main__':
     app.run_server()
